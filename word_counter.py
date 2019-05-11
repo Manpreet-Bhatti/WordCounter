@@ -46,4 +46,4 @@ f.close()
 most_common(file_data)
 num_of_words = count_the_words(file_data)
 
-print("The total number of words are: %d" %(num_of_words)) # Print amount of total words
+print("The total number of words are: %d" %(num_of_words))
