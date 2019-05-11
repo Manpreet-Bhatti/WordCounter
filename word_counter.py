@@ -6,7 +6,7 @@ def count_the_words(file_new): # Counts the total amount of words in the file
     amount_of_words = len(bunch_of_words)
     return amount_of_words
 
-def most_common(file_new): # Counts and prints the most common words in (word, count) format
+def most_common(file_new): # Counts and prints the most common words
     for p in string.punctuation:  # Cleans the punctuation
         file_new = file_new.replace(p, " ")
 
