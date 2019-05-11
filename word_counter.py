@@ -34,7 +34,7 @@ def most_common(file_new): # Counts and prints the most common words
 
 if __name__ == "__main__": # Run code below if a text file is inputted
     if len(sys.argv) < 2:
-        print("Usage: python word_count.py <files>")
+        print("Usage: python word_count.py <file name>.txt")
         exit(1)
 
 filename = sys.argv[1]
